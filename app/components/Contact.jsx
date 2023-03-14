@@ -54,9 +54,10 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/contact.jpg"
+                  src="https://drive.google.com/uc?export=view&id=1spgvm6M2tog8uGrYDj8gQbZGahSshh_b"
                   width="500"
                   height="500"
+                  placeholder="blur"
                 />
               </div>
 

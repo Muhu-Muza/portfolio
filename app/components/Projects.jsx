@@ -12,19 +12,19 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="FanyaJobs"
-            backgroundImg="/../public/assets/projects/FanyaJobs.png"
+            backgroundImg="https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1"
             projectUrl="/fanyajobs"
             framework="Django"
           />
           <ProjectItem
             title="Keije Safaris"
-            backgroundImg="/../public/assets/projects/keije.png"
+            backgroundImg="https://drive.google.com/uc?export=view&id=1G0iofCPIEfONuDKPmyif6x7FOIDeZS0N"
             projectUrl="/keijesafaris"
             framework="Flask"
           />
           <ProjectItem
             title="Yum Recipes API"
-            backgroundImg="/../public/assets/projects/yum.png"
+            backgroundImg="https://drive.google.com/uc?export=view&id=1685w1ltF8-ZE2vaUrG0S2UEZX6f7FwMl"
             projectUrl="/yumrecipes"
             framework="Flask Rest API"
           />

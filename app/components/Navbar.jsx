@@ -60,10 +60,11 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/" className="mt-4">
           <Image
-            src="/../public/assets/navLogo.png"
+            src="https://drive.google.com/uc?export=view&id=1ebm2tEGBzS9gC4H5brrcYKfIyWVrRPnq"
             alt="/"
             width="180"
             height="100"
+            placeholder="blur"
           />
         </Link>
 

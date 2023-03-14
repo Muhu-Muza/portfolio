@@ -95,10 +95,11 @@ const About = () => {
         <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl"
-            src="/../public/assets/ivo.jpg"
-            alt="Beautiful picture"
+            src="https://drive.google.com/uc?export=view&id=1EakIvfHYwOqf9goDZZq8orpyF16uxTL6"
+            alt="profile image"
             width="600"
             height="500"
+            placeholder="blur"
           />
         </div>
       </div>

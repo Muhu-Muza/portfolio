@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import keijeSafarisImg from "../../public/assets/projects/keije.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const keijesafaris = () => {
@@ -12,7 +11,7 @@ const keijesafaris = () => {
         <Image
           className="absolute z-1"
           style={{ objectFit: "cover" }}
-          src={keijeSafarisImg}
+          src="https://drive.google.com/uc?export=view&id=1G0iofCPIEfONuDKPmyif6x7FOIDeZS0N"
           alt="/"
           fill
         />

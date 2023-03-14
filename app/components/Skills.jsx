@@ -12,55 +12,51 @@ const Skills = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           <Myskills
-            imagesrc={"/../public/assets/skills/html.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1-H5mq2tgyz0gooSfNw_q9APxxaAwrs68"}
             skill={"HTML"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/css.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1rrXQJfinIScJsCdt3gbEtElj50rPwNMq"}
             skill={"CSS"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/javascript.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=181ALR5kFoQWxq8VrK4nYx19iibVSeSWB"}
             skill={"JavaScript"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/react.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1ztOaXp7Fi0RrBq23OxV-Axn4m8hAwAgZ"}
             skill={"React JS"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/nextjs.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1iJOqk-93AaMEFJmFMTxICbDlXhfIBvGM"}
             skill={"NEXT JS"}
           />
-
           <Myskills
-            imagesrc={"/../public/assets/skills/tailwind.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1kWtWe5ja_b7u3ynkPsJroYJzobcsoLJg"}
             skill={"Tailwind"}
           />
-
           <Myskills
-            imagesrc={"/../public/assets/skills/git.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1YHRC_E5i2SEHZQvUUQVKkqABcYfSe6pF"}
             skill={"Git"}
           />
-
           <Myskills
-            imagesrc={"/../public/assets/skills/mysql.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1GhnmjwO0iU8KNr3uTHiJviFDNz7d-Ja6"}
             skill={"MySQL"}
           />
-
           <Myskills
-            imagesrc={"/../public/assets/skills/postgres.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1XblFWlIuGEQZyi8EQ3dBZELDGtWeNroW"}
             skill={"postgreSQL"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/python.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1wNe7lfT-MKowmx7EK8wUX3Bcj-HB0G3t"}
             skill={"Python"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/django.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=1e45oZlxe8trhQllXKxRGJmzCmvsN3oVE"}
             skill={"Django"}
           />
           <Myskills
-            imagesrc={"/../public/assets/skills/flask.png"}
+            imagesrc={"https://drive.google.com/uc?export=view&id=10G56tR9FJnM0qSNXcOULUETZAGZRj5mE"}
             skill={"Flask"}
           />
         </div>

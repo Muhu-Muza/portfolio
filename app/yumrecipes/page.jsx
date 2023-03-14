@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import yumRecipesImg from "../../public/assets/projects/yum.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const yumrecipes = () => {
@@ -12,7 +11,7 @@ const yumrecipes = () => {
         <Image
           className="absolute z-1"
           style={{ objectFit: "cover" }}
-          src={yumRecipesImg}
+          src="https://drive.google.com/uc?export=view&id=1685w1ltF8-ZE2vaUrG0S2UEZX6f7FwMl"
           alt="/"
           fill
         />

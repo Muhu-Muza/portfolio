@@ -13,6 +13,7 @@ const Myskills = ({imagesrc, skill}) => {
               width="64"
               height="64"
               alt="/"
+              placeholder="blur"
             />
           </div>
           <div className="flex flex-col items-center justify-center">

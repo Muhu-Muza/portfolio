@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import fanyaJobsImg from "../../public/assets/projects/FanyaJobs.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const fanyajobs = () => {
@@ -12,7 +11,7 @@ const fanyajobs = () => {
         <Image
           className="absolute z-1"
           style={{ objectFit: "cover" }}
-          src={fanyaJobsImg}
+          src="https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1"
           alt="/"
           fill
         />
