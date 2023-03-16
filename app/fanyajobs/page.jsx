@@ -6,14 +6,16 @@ const fanyajobs = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-        <img
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 bg-[url('https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1')] bg-top"/>
+        {/* <img
           className="absolute z-1"
           style={{ objectFit: "cover" }}
           src="https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1"
           alt="/"
+          height={307}
+          width={1280}
           fill
-        />
+        /> */}
         <div className="absolute mb-3 ml-3 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">FanyaJobs</h2>
           <h3>HTML5 / CSS / Bootstrap5 / python / Django</h3>

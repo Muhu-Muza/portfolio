@@ -7,13 +7,7 @@ const yumrecipes = () => {
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-        <img
-          className="absolute z-1"
-          style={{ objectFit: "cover" }}
-          src="https://drive.google.com/uc?export=view&id=1685w1ltF8-ZE2vaUrG0S2UEZX6f7FwMl"
-          alt="/"
-          fill
-        />
+        
         <div className="absolute mb-3 ml-3 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Yum Recipes API</h2>
           <h3>Flask Rest / Python / Swagger</h3>

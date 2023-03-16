@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -60,9 +59,10 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/" className="mt-4">
           <img
-            className="h-[5] w-[10]"
             src="https://drive.google.com/uc?export=view&id=1ebm2tEGBzS9gC4H5brrcYKfIyWVrRPnq"
             alt="/"
+            height={100}
+            width={180}
           />
         </Link>
 
