@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
@@ -8,7 +7,7 @@ const keijesafaris = () => {
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[40vh] bg-black/80 z-10" />
-        <Image
+        <img
           className="absolute z-1"
           style={{ objectFit: "cover" }}
           src="https://drive.google.com/uc?export=view&id=1G0iofCPIEfONuDKPmyif6x7FOIDeZS0N"

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link"
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaFacebook } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -52,11 +51,9 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
+                <img
+                  className="h-[31.25] w-[31.25] rounded-xl hover:scale-105 ease-in duration-300"
                   src="https://drive.google.com/uc?export=view&id=1spgvm6M2tog8uGrYDj8gQbZGahSshh_b"
-                  width="500"
-                  height="500"
                 />
               </div>
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const About = () => {
@@ -97,8 +96,6 @@ const About = () => {
             className="rounded-xl h-[37.7] w-[31.25]"
             src="https://drive.google.com/uc?export=view&id=1EakIvfHYwOqf9goDZZq8orpyF16uxTL6"
             alt="profile image"
-            // width="600"
-            // height="500"
           />
         </div>
       </div>

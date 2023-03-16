@@ -1,15 +1,12 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 const ProjectItem = ({title, backgroundImg, projectUrl, framework}) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
-      <Image
-        className="rounded-xl group-hover:opacity-10"
+      <img
+        className="w-[41.88] h-[31.25] rounded-xl group-hover:opacity-10"
         src={backgroundImg}
-        width="670"
-        height="500"
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left=[50%] translate-x-[-50%] translate-y-[-50%]">

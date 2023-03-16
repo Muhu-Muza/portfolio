@@ -59,11 +59,10 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/" className="mt-4">
-          <Image
+          <img
+            className="h-[5] w-[10]"
             src="https://drive.google.com/uc?export=view&id=1ebm2tEGBzS9gC4H5brrcYKfIyWVrRPnq"
             alt="/"
-            width="180"
-            height="100"
           />
         </Link>
 
@@ -110,11 +109,10 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
+                <img
+                  className="h-[1.5] w-[2.5]"
                   src="/../public/assets/navLogo.png"
-                  width="50"
-                  height="10"
-                  alt="/"
+                  alt="logo"
                 />
               </Link>
               <div

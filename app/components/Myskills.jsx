@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Myskills = ({imagesrc, skill}) => {
   return (
@@ -8,7 +7,7 @@ const Myskills = ({imagesrc, skill}) => {
       <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
           <div className="m-auto">
-            <img className="h-24 w-24"
+            <img className="h-[4] w-[4]"
               src={imagesrc}
               alt="/"
             />

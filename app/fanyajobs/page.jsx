@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
@@ -8,7 +7,7 @@ const fanyajobs = () => {
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-        <Image
+        <img
           className="absolute z-1"
           style={{ objectFit: "cover" }}
           src="https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1"
