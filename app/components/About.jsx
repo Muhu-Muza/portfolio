@@ -99,7 +99,6 @@ const About = () => {
             alt="profile image"
             width="600"
             height="500"
-            placeholder="blur"
           />
         </div>
       </div>

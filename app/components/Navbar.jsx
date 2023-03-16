@@ -64,7 +64,6 @@ const Navbar = () => {
             alt="/"
             width="180"
             height="100"
-            placeholder="blur"
           />
         </Link>
 

@@ -57,7 +57,6 @@ const Contact = () => {
                   src="https://drive.google.com/uc?export=view&id=1spgvm6M2tog8uGrYDj8gQbZGahSshh_b"
                   width="500"
                   height="500"
-                  placeholder="blur"
                 />
               </div>
 
