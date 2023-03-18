@@ -18,8 +18,8 @@ const keijesafaris = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a website I built whilst doing my intership for a Tourism
-            Company. I created it from using front end tools I know.
+            This is a website I built whilst doing my intership. It is a Model for a Tourism
+            Company. 
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4">Code</button>
