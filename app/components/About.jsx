@@ -35,7 +35,7 @@ const About = () => {
                 <span className="text-gray-600">
                   <b>web developer</b>
                 </span>{" "}
-                with 2 years of experience, passionate about using{" "}
+                who is passionate about using{" "}
                 <span className="text-gray-600">
                   <b>technology</b>
                 </span>{" "}
@@ -49,7 +49,7 @@ const About = () => {
                 <span className="text-gray-600">
                   <b>frameworks</b>
                 </span>{" "}
-                such as Git, Django, Flask, Javascript, Next.js, React.js
+                such as Git, Django, Flask, Javascript, Next.js, React.js, 
                 Databases (Relational and non-relational)
               </p>
             </div>
@@ -59,8 +59,7 @@ const About = () => {
                 <span className="text-gray-600">
                   <b>technologies</b>
                 </span>{" "}
-                and expand my knowledge, and I thrive in fast-paced, dynamic
-                environments where I can apply my{" "}
+                and expand my knowledge while applying my{" "}
                 <span className="text-gray-600">
                   <b>creativity</b>
                 </span>{" "}
@@ -84,7 +83,7 @@ const About = () => {
 
           <Link href="https://github.com/Muhu-Muza" target="_blank">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
+              Check out some of my projects.
             </p>
           </Link>
 
