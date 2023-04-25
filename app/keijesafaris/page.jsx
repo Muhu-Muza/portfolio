@@ -21,8 +21,10 @@ const keijesafaris = () => {
             This is a website I built whilst doing my intership. It is a Model for a Tourism
             Company. 
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+//           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://github.com/Muhu-Muza/keije-safaris" target="_blank">
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
