@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link"
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaFacebook } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Image from "next/image";
 
 const Contact = () => {
 
@@ -51,9 +52,11 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="h-[31.25] w-[31.25] rounded-xl hover:scale-105 ease-in duration-300"
                   src="https://drive.google.com/uc?export=view&id=1spgvm6M2tog8uGrYDj8gQbZGahSshh_b"
+                  width={406.4}
+                  height={406.4}
                 />
               </div>
 
