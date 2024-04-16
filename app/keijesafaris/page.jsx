@@ -6,7 +6,7 @@ const keijesafaris = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[40vh] bg-black/80 z-10 bg-[url('https://drive.google.com/thumbnail?id=1G0iofCPIEfONuDKPmyif6x7FOIDeZS0N&sz=w1440')] bg-bottom bg-no-repeat" />
+        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[40vh] bg-black/80 z-10 bg-[url('https://drive.google.com/thumbnail?id=1G0iofCPIEfONuDKPmyif6x7FOIDeZS0N&sz=w4000')] bg-bottom bg-no-repeat" />
         <div className="absolute mb-3 ml-3 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Keije Safaris</h2>
           <h3>HTML5 / CSS / Flask / Python</h3>
