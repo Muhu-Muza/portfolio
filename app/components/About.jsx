@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -91,10 +92,12 @@ const About = () => {
         </div>
 
         <div className="w-full h-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
+          <Image
             className="rounded-xl h-[37.7] w-[31.25]"
             src="https://drive.google.com/uc?export=view&id=1EakIvfHYwOqf9goDZZq8orpyF16uxTL6"
-            alt="profile image"
+            alt="My Profile Image"
+            width={392}
+            height={456}
           />
         </div>
       </div>
