@@ -7,12 +7,12 @@ const fanyajobs = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div style={{zIndex : -1}} className="absolute w-full h-[30vh] lg:h-[40vh] bg-black/80">
+        <div style={{zIndex : -1}} className="absolute w-full h-[30vh] lg:h-[40vh]">
         <Image 
             src="https://drive.google.com/uc?export=view&id=1i2-ljm4E0GJd-1UdSdoUFd2jTzpwV-q1"
             alt="Fanya jobs landing page"
             fill
-            style= {{objectFit : "cover", backgroundPosition: "0% 0%" }}
+            style= {{objectFit : "cover", backgroundPosition: "0% 0%", backgroundColor: "rgba(0, 0, 0, 0.8)" }}
             />
           </div>
       
