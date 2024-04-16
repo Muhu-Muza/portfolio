@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -69,25 +70,81 @@ const Navbar = () => {
 
         <div>
           <ul style={{color: `${linkColor}`}} className="hidden md:flex">
-            <Link href="/">
+            <ScrollLink
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={150}
+                >
+                  <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">Home</li>
+            </ScrollLink>
+            {/* <Link href="/">
               <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">Home</li>
-            </Link>
-            <Link href="/#about">
+            </Link> */}
+
+            <ScrollLink
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={150}
+                >
+                  <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">About</li>
+            </ScrollLink>
+            {/* <Link href="/#about">
               <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">About</li>
-            </Link>
-            <Link href="/#skills">
+            </Link> */}
+
+            <ScrollLink
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={150}
+                >
+                  <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">Skills</li>
+            </ScrollLink>
+
+            {/* <Link href="/#skills">
               <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">Skills</li>
-            </Link>
-            <Link href="/#projects">
+            </Link> */}
+
+            <ScrollLink
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={150}
+                >
+                  <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">
+                Projects
+              </li>
+            </ScrollLink>
+            
+            {/* <Link href="/#projects">
               <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">
                 Projects
               </li>
-            </Link>
-            <Link href="/#contact">
+            </Link> */}
+            
+            <ScrollLink
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={150}
+                >
+                  <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">
+                Contact
+              </li>
+            </ScrollLink>
+
+            {/* <Link href="/#contact">
               <li className="ml-10 text-gray-500 text-sm uppercase hover:text-[#6b1912] transition duration-600">
                 Contact
               </li>
-            </Link>
+            </Link> */}
           </ul>
 
           <div onClick={handleNav} className="md:hidden">
@@ -110,10 +167,12 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <img
+                <Image
                   className="h-[1.5] w-[2.5]"
                   src="/../public/assets/navLogo.png"
                   alt="logo"
+                  width={100}
+                  height={100}
                 />
               </Link>
               <div
@@ -131,31 +190,31 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <ScrollLink to="home" spy={true} smooth={false} offset={-20}>
                 <li onClick={setNavOff} className="py-3 text-sm">
                   Home
                 </li>
-              </Link>
-              <Link href="/#about">
+              </ScrollLink>
+              <ScrollLink to="about" spy={true} smooth={false} offset={-20}>
                 <li onClick={setNavOff} className="py-3 text-sm">
                   About
                 </li>
-              </Link>
-              <Link href="/#skills">
+              </ScrollLink>
+              <ScrollLink to="skills" spy={true} smooth={false} offset={-100}>
                 <li onClick={setNavOff} className="py-3 text-sm">
                   Skills
                 </li>
-              </Link>
-              <Link href="/#projects">
+              </ScrollLink>
+              <ScrollLink to="projects" spy={true} smooth={false} offset={-25}>
                 <li onClick={setNavOff} className="py-3 text-sm">
                   Projects
                 </li>
-              </Link>
-              <Link href="/#contact">
+              </ScrollLink>
+              <ScrollLink to="contact" spy={true} smooth={false} offset={-20}>
                 <li onClick={setNavOff} className="py-3 text-sm">
                   Contact
                 </li>
-              </Link>
+              </ScrollLink>
             </ul>
             <div className="pt-20">
               <p className="uppercase tracking-widest text-[#5651e5]">
